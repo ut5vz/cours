@@ -1,0 +1,159 @@
+:root {
+--font-family: 'DM Sans', sans-serif;
+--font-family: 'Mulish', sans-serif;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+}
+ 
+*{
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.header,
+.footer {
+  background-color: rgba(255, 113, 67, 0.27);
+  padding: 38px 0 48px;
+}
+
+.header-list {
+  padding-top: 15px;
+  margin-left: 166px;
+}
+
+
+
+.container {
+  max-width: 1070px;
+  margin: 0 auto;
+  display: flex;
+}
+
+ .about-text {
+  font-family: 'Mulish', sans-serif;
+} 
+
+.footer-list {
+  padding-top: 15px;
+  margin-left: 525px;
+}
+
+.nav-li {
+  display: inline-block;
+}
+
+.nav-li:not(:first-of-type) {
+  margin-left: 40px;
+}
+/* .nav-list {
+    list-style: none; 
+} */
+
+.nav-link {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: -0.468947px;
+  color: #696871;
+  text-decoration: none;
+}
+.nav-link:hover {
+  color: #19191b;
+  transition: 300ms;
+}
+
+.button {
+  width: 212px;
+  height: 60px;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 22px;
+  letter-spacing: -0.531474px;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.btn {
+  background-color: #ff7143;
+}
+
+.button:hover {
+  background-color: #f67c53;
+  transition: 500ms;
+}
+
+.about-title {
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 77px;
+  letter-spacing: -2.50105px;
+  color: #19191b;
+  max-width: 464px;
+  margin-bottom: 30px;
+}
+
+.about-text {
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: -0.625263px;
+  color: #696871;
+  max-width: 410px;
+  margin-bottom: 50px;
+}
+
+.btn-v {
+  background-color: #5454d4;
+}
+
+.btn-t {
+  background: none;
+  color: #5454d4;
+  border: 1px solid #5454d4;
+  margin-left: 35px;
+}
+
+/* .logo {
+padding-left: 190px;
+padding-top: 50px;
+padding-bottom: 60px;
+
+}
+
+.header-item {
+    margin: 30px;
+}
+
+.header-link {
+color: #696871;
+} */
+
+/* .header-list {
+    list-style: none;
+    display: flex;
+    padding-top: 30px;
+    
+margin-left: 165px;
+
+} */
+
+/* .btn {
+   background-color: #FF7143;
+   border-radius: 10px;
+  color:  #FFFFFF;
+  padding: 20px 60px;
+  border: none;
+   flex-direction: row-reverse; 
+
+}  */
+.btn-p {
+  background: #9F3919;
+}
+/* footer */
+.footer {
+  padding: 53px 0;
+}
